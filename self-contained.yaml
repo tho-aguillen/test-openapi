@@ -1,0 +1,9 @@
+openapi: "3.0.0"
+info:
+  title: Simple API overview
+  version: 2.0.0
+paths:
+  /v1:
+    $ref: "./resources/v1.yaml"
+  /v2:
+    $ref: "./resources/v2.yaml"
